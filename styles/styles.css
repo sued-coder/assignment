@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* , *::before, *::after {
+    box-sizing: border-box;
+}
+
+.banner{
+    background:
+    linear-gradient(80deg, #070211 0%, rgba(7,2,14,0) 100%),
+    url('/assets/Banner Image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+width: 82%;
+max-width: 1320px;
+min-height: 503px;
+flex-shrink: 0;
+margin: 50px auto 120px ;
+}
+
+.HNY{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+ padding-top: 160px;
+ padding-right: 60px;
+} 
+
+.NYP{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 52px;
+font-style: normal;
+font-weight: 700;
+padding-right: 60px;
+}
+/* 65% off */
+.off{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 58px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.deals{
+    color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px;
+}
+.ac{
+    color: #070211;
+text-align: center;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.newyear{
+padding-top: 48px;
+padding-left: 275px;
+}
+
+/* pinkbox */
+
+.pinkbox{   
+     background: linear-gradient(to bottom, #FF00001A, #FF000000);
+    border: 1px solid ;
+    width: 82%;
+    max-width: 1320px;
+    min-height: 503px;
+    flex-shrink: 0;
+    margin: 50px auto 120px ;
+}
+/* party */
+.problem{ 
+    border-radius: 16px;
+    width: 82%;
+    max-width: 1320px;
+    min-height: 503px;
+    flex-shrink: 0;
+    margin: 50px auto 120px ;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/assets/Vectorrr.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 30px;
+font-style:normal;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 7.04px;
+padding-bottom: 10px ;
+padding-left: 50px;
+}
+
+.text{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-left: 50px;
+}
+
+.button{
+    background-color: transparent;
+    color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 10px;
+}
+
+.twofour{
+    padding-right: 100px;
+    padding-left: 130px;
+    padding-top: 25px;
+    max-height: 464.662px;
+}
+
