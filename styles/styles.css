@@ -187,8 +187,8 @@
 
 /* circle img */
 .circle {
-     display: flex;
-    justify-content:space-evenly;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -228,24 +228,161 @@
 
 .box-two .box-two-img {
     width: 400px;
-    height:auto;
+    height: auto;
 }
 
-.box-two-img{
+.box-two-img {
     border-radius: 463px;
     border: 10px solid #F00;
     padding: 15px;
 }
 
-.year{
+.year {
     color: #F00;
-font-family: Inter;
-font-size: 38px;
-font-style: normal;
-font-weight: 700;
+    font-family: Inter;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
 }
 
-.asset{
+.asset {
     width: 70px;
-height: 70px;
+    height: 70px;
 }
+
+.cir-art {
+    padding-bottom: 60px;
+}
+
+/* sale 50% */
+.merge {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.txt-func {
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.txt-sale {
+    text-align: center;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hol {
+    color: #F00;
+}
+
+.text-para {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.fifty {
+    height: 206.841px;
+    margin-top: 78px;
+    margin-left: 600px;
+}
+
+.rect1 {
+    background: url(../assets/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 20px;
+    height: 333px;
+    border-radius: 16px 16px 0px 0px
+}
+
+.bottom {
+    background: url(../assets/Rectangle\ 2.png);
+    width: 1108px;
+    height: 129px;
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+}
+.surp{
+    height: 300px;
+    margin-left: 70px;
+    margin-top: -160px;
+}
+
+/* grid */
+.gif{
+    color: #F00;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+
+.port{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.as{
+    width: 596px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.imag{ 
+    padding-top: 20px;
+    width: 324px;
+height: 350px;
+border-radius: 16px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+}
+
+.imag {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .imag::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .imag:hover::before {
+    opacity: 1;
+  }
+  
+  .imag:hover {
+    transform: scale(1.06);
+  }
